@@ -18,7 +18,7 @@ const greeting = () => {
 const howManyGames = () => {
   const count = readlineSync.question('how many times do you want to play: ');
   return count;
-}
+};
 
 const questionAnswer = (question) => {
   console.log(`Question: ${question}`);
@@ -64,6 +64,17 @@ const arrayProgression = () => {
   return resultArray;
 };
 
+const primeNumber = (number) => {
+  let answer = 'yes';
+  for (let i = 2; i < number / 2 + 1; i += 1) {
+    if (number % i === 0) {
+      answer = 'no';
+      break;
+    }
+  }
+  return answer;
+};
+
 export {
   greeting,
   questionAnswer,
@@ -72,4 +83,5 @@ export {
   gcdFind,
   howManyGames,
   arrayProgression,
+  primeNumber,
 };

@@ -19,6 +19,7 @@ const isEvenNumber = () => {
       index.isRigthAnswer(rightAnswer, userAnswer);
       if (rightAnswer !== userAnswer) {
         flag = 0;
+        break;
       }
     }
     if (flag === 1) {
