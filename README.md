@@ -1,4 +1,4 @@
-Code Climate 
+#!Code Climate 
 <a href="https://codeclimate.com/github/ArtN7/BrainGames/maintainability"><img src="https://api.codeclimate.com/v1/badges/ec94524241d1b4fe2ca1/maintainability" /></a>
 
 Brain-even
